@@ -38,21 +38,12 @@ class WordOfTheDay extends Command
      */
     public function handle()
     {
-<<<<<<< HEAD
-        $message_data = ["email"=>"akashb.m786@gmail.com"];
-         Mail::send('test', [ 'message_data' => $message_data], function ($message) use($message_data)
-                     {
-                        $message->from('servesmilefoundation02@gmail.com');
-                        $message->to($message_data['email'])->subject('Test');
-                    });
-=======
 
         $message_data = ["email"=>"buntyshirke22@gmail.com"];
          Mail::send('Test', [ 'message_data' => $message_data], function ($message) use($message_data)
-                     {
-                        $message->from('akashb.m786@gmail.com');
-                        $message->to($message_data['email'])->subject('this mail for job regarding');
-                    }); 
->>>>>>> 02ad4fce77b5702730e00bf90f5f4e5f5ba55fcb
+         {
+            $message->from('akashb.m786@gmail.com');
+            $message->to($message_data['email'])->subject('this mail for job regarding');
+        }); 
     }
 }

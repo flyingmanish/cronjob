@@ -74,14 +74,8 @@
         processData: false,
         contentType: false,
         success: function(obj) {
-<<<<<<< HEAD
-
-          // alert("success")
-          // $(".alert-danger").remove()
-=======
           alert("success")
           $(".alert-danger").remove()
->>>>>>> d744be24ca59caa66ff7eb3d117f96a45d5cb4ab
           $(".success_msg").html("<li class='alert alert-success'>Submitted successfully!</li>")
 
           window.setTimeout(function() {
