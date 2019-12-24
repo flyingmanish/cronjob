@@ -15,11 +15,8 @@
         </ul>
       </li>
       <li><a href="{{url('/donationForm')}}">donation</a></li>
-<<<<<<< HEAD
       <li><a href="{{ url('/picture_upload')}}">Picture Upload</a></li>
-=======
       <li><a href="{{url('/dashboard')}}">Admin_Donation_form</a></li>
->>>>>>> 02ad4fce77b5702730e00bf90f5f4e5f5ba55fcb
       <li><a href="{{ url('/image_upload') }}">Image Upload</a></li>
       <li><a href="{{url('/ngo_register')}}">ngo_registration</a></li>
     </ul>
